@@ -1,0 +1,10 @@
+;>
+- Developer: ~biszod-winner
+- License: MIT
+- Source repo: [github.com/orlin/asl-delta](https://github.com/orlin/asl-delta)
+- Bug reports: [github.com/orlin/asl-delta/issues](https://github.com/orlin/asl-delta/issues)
+
+This is the `%delta` app from [App Schoool Live](https://developers.urbit.org/courses/asl)
+with minor additions as required for completion.
+
+Write more here, esp after this file shows up recognized by the `%docs` app...
