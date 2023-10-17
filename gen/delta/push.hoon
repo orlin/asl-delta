@@ -1,8 +1,16 @@
-::  :delta|push 10 ~sampel
+::  push a value to an optional target ship presumed our
+::
+::  :delta|push 10
+::  :delta|push ~sampel 20
 ::
 :-  %say
-|=  $:  ^
-        [value=@ target=@p ~]
+|=  $:  [@ @ our=@p ^]
+        args=?([value=@ ~] [target=@p value=@ ~])
         ~
     ==
-[%delta-action [%push target value]]
+=,  args
+:-  %delta-action
+?-  args
+  [@ ~]    [%push our value]
+  [@ @ ~]  [%push target value]
+==

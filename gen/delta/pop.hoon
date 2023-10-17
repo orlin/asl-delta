@@ -1,3 +1,5 @@
+::  pop a value from an optional target, presumed our %delta values stack
+::
 ::  :delta|pop
 ::  :delta|pop ~sampel
 ::
